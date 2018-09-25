@@ -1,0 +1,40 @@
+
+import java.util.Scanner;
+
+/*
+ * 
+
+ */
+
+/**
+ *
+ * @author Roberto Valdez Vazquez - 18550731
+ */
+public class principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        
+        Scanner input = new Scanner (System.in);
+        //VELOCIDAD INICIAL
+        System.out.println("Introduce la velocidad inicial:");
+        double sVelin;
+        dVelin = input.nextDouble();
+        //VELOCIDAD FINAL
+        System.out.println("Introduce la velocidad final:");
+        double sVelfin;
+        dVelfin = input.nextDouble();
+        //TIEMPO
+        System.out.println("Introduce el tiempo empleado:");
+        double t;
+        t = input.nextDouble();
+        
+        double dist;
+        dist = ((sVelin+sVelfin)/2)*t;
+        System.out.println("La distancia recorrida es: "+dist);
+    }
+    
+}

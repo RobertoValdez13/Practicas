@@ -1,0 +1,18 @@
+﻿print("Introduzca el numerador de la primera fracción: ")
+f1 = float(input())
+print("Introduzca el denominador de la primera fracción: ")
+g1 = float(input())
+print("Introduzca el numerador de la segunda fracción: ")
+f2 = float(input())
+print("Introduzca el denominador de la segunda fracción: ")
+g2 = float(input())
+multiNum = f1 * f2
+multiDen = g1 * g2
+print("La multiplicación de ambas fracciones es: " + multiNum + "/" + multiDen)
+divNum = f1 * g2
+divDen = g1 * f2
+print("La división de ambas fracciones es: " + divNum + "/" + divDen)
+sumNum = f1 * g2 + g1 * f2
+print("La suma de ambas fracciones es: " + sumNum + "/" + multiDen)
+resNum = f1 * g2 - g1 * f2
+print("La resta de ambas fracciones es: " + resNum + "/" + multiDen)

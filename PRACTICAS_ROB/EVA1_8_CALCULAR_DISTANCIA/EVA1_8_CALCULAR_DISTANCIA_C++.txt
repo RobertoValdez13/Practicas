@@ -1,0 +1,44 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+
+int main() {
+
+
+
+cout << "Introduce la velocidad inicial:" << endl;
+
+double sVelin;
+
+cin >> sVelin;
+
+
+cout << "Introduce la velocidad final: " << endl;
+
+double sVelfin;
+
+cin >> sVelfin;
+
+
+cout << "Introduce el tiempo empleado: " << endl;
+
+double t;
+
+cin >> t;
+
+
+double rDist;
+
+rDist = ((sVelin+sVelfin)/2)*t;
+
+
+cout << "La distancia es: ";
+
+cout << rDist << endl;
+
+
+
+}

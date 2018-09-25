@@ -1,0 +1,39 @@
+﻿/*
+ * Volumen de cuña esferica
+ */
+
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Roberto Valdez Vazquez - 18550731
+ */
+public class EVA1_10_CUNA_ESFERA {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+//radio
+        System.out.println("Ingrese el valor del radio:");
+        double r;
+        r = input.nextDouble();
+//angulo
+        System.out.println("Ingrese el valor del ángulo:");
+        double a;
+        a = input.nextDouble();
+        
+        double vol;
+        vol = (3.1416)*(Math.pow(r, 3))*(a/270);
+        System.out.println("El volumen de la cuña esférica es: "+vol);
+        
+        //formula
+        //4/3 * (PI*R^3)/360 * n 
+        
+        
+    }
+    
+}

@@ -1,0 +1,60 @@
+﻿
+import java.util.Scanner;
+
+/*
+ *  Operaciones con dos fracciones aritméticas y aplicando sus formulas
+ */
+
+/**
+ *
+ * @author Roberto Valdez Vazquez - 18550731
+ */
+public class principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     
+        Scanner input = new Scanner(System.in);
+        //DECLARAS LAS FRACCIONES Y LAS OPERACIONES
+        int f1, f2;
+        int multiNum, multiDen, sumNum, resNum, divNum, divDen;
+        //NUMERADOR DE LA PRIMER FRACCION
+        System.out.println("Ingrese el numerador de la primera fracción: ");
+        int L1;
+        n1 = input.nextInt();
+        //DENOMINADOR DE LA PRIMER FRACCION
+        System.out.println("Ingrese el denominador de la primera fracción: ");
+        int P1;
+        d1 = input.nextInt();
+        //NUMERADOR DE LA PRIMER FRACCION
+        System.out.println("Ingrese el numerador de la segunda fracción: ");
+        int L2;
+        n2 = input.nextInt();
+        //DENOMINADOR DE LA PRIMER FRACCION
+        System.out.println("Ingrese el denominador de la segunda fracción: ");
+        int P2;
+        d2 = input.nextInt();
+
+        //MULTIPLICACION       
+        multiNum=L1*L2;
+        multiDen=P1*P2;
+        System.out.println("La multiplicación de ambas fracciones es: "+multiNum+"/"+multiDen);   
+     
+        //SUMA
+        sumNum=((L1*P2)+(P1*L2));
+        System.out.println("La suma de ambas fracciones es: "+sumNum+"/"+multiDen);
+       
+        //DIVISION
+        divNum=L1*P2;
+        divDen=P1*L2;
+        System.out.println("La división de ambas fracciones es: "+divNum+"/"+divDen);
+        
+        //RESTA
+        resNum= ((L1*P2)-(P1*L2));
+        System.out.println("La resta de ambas fracciones es: "+resNum+"/"+multiDen);
+        
+    }
+    
+}

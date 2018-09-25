@@ -1,0 +1,9 @@
+print("Introduce la velocidad inicial")
+sVelin = float(input())
+print("Introduce la velocidad final")
+sVelfin = float(input())
+print("Introduce el tiempo empleado")
+t = float(input())
+rDist = (sVelin + sVelfin) / 2 * t
+print("La distancia es: ", end='', flush=True)
+print(rDist)
